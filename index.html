@@ -3,77 +3,78 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Mi portafolio</title>
+		<link rel="stylesheet" href="css/normalize.css">
 		<link rel="stylesheet" href="css/estilos.css">
 	</head>
 	<body>
-		<header>
-			<nav>
-				<ul>
-					<li>
-						<a href="#yo">Yo</a>
+		<header id="yo" class="Header">
+			<nav class="MainMenu">
+				<ul class="MainMenu-list">
+					<li class="MainMenu-item">
+						<a class="MainMenu-link" href="#yo">Yo</a>
 					</li>
-					<li>
-						<a href="#perfil">Perfil</a>
+					<li class="MainMenu-item">
+						<a class="MainMenu-link" href="#perfil">Perfil</a>
 					</li>
-					<li>
-						<a href="#trabajo">Trabajo</a>
+					<li class="MainMenu-item">
+						<a class="MainMenu-link" href="#trabajo">Trabajo</a>
 					</li>
-					<li>
-						<a href="#contacto">Contacto</a>
+					<li class="MainMenu-item">
+						<a class="MainMenu-link" href="#contacto">Contacto</a>
 					</li>
 				</ul>
 			</nav>
-			<figure>
-				<img src="img/avatar" alt="mi foto de perfil">
-				<figcaption>
-					<a href="http://twitter.com/" target="_black">@LeonidasEsteban</a>
+			<figure class="Header-imageContainer">
+				<img src="img/avatar" alt="mi foto de perfil" class="Header-image">
+				<figcaption class="Header-imageDescription">
+					<a href="http://twitter.com/" target="_black" class="Header-link">@LeonidasEsteban</a>
 				</figcaption>
-				<p>Daniela Lo-ami</p>
+				<p class="header-name">Daniela Lo-ami Morales Perez</p>
 			</figure>
 		</header>
-		<section>
-			<h2>PERFIL</h2>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum voluptates, dignissimos animi vero molestiae harum placeat, molestias voluptatum, alias sint dolores provident ipsa autem commodi mollitia pariatur possimus ullam totam.</p>
-			<a href="http://twitter.com/" target="_black">@lo-ami</a>
-			<a href="http://facebook.com/" target="_black">facebook</a>
-			<a href="http://twitter.com/" target="_black">instagram</a>
+		<section id="perfil" class="Profile">
+			<h2 class="Profile-title">PERFIL</h2>
+			<p class="Profile-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum voluptates, dignissimos animi vero molestiae harum placeat, molestias voluptatum, alias sint dolores provident ipsa autem commodi mollitia pariatur possimus ullam totam.</p>
+			<a class="Profile-link" href="http://twitter.com/" target="_black">@lo-ami</a>
+			<a class="Profile-link" href="http://facebook.com/" target="_black">facebook</a>
+			<a class="Profile-link" href="http://twitter.com/" target="_black">instagram</a>
 		</section>
-		<section>
-			<h2>TRABAJO</h2>
-			<article>
-				<figure>
-					<img src="" alt="">
-					<figcaption>Bla Bla Bla</figcaption>
+		<section id="trabajo" class="Work">
+			<h2 class="Work-title">TRABAJO</h2>
+			<article class="Work-item">
+				<figure class="Work-imageContainer">
+					<img class="Work-image" src="" alt="">
+					<figcaption class="Work-description">Bla Bla Bla</figcaption>
 				</figure>
 			</article>
-			<article>
-				<figure>
-					<img src="" alt="">
-					<figcaption>Bla Bla Bla</figcaption>
+			<article class="Work-item">
+				<figure class="Work-imageContainer">
+					<img class="Work-image" src="" alt="">
+					<figcaption class="Work-description">Bla Bla Bla</figcaption>
 				</figure>
 			</article>
-			<article>
-				<figure>
-					<img src="" alt="">
-					<figcaption>Bla Bla Bla</figcaption>
+			<article class="Work-item">
+				<figure class="Work-imageContainer">
+					<img class="Work-image" src="" alt="">
+					<figcaption class="Work-description">Bla Bla Bla</figcaption>
 				</figure>
 			</article>
-			<article>
-				<figure>
+			<article class="Work-item">
+				<figure class="Work-imageContainer">
 					<img src="" alt="">
 					<figcaption>Bla Bla Bla</figcaption>
 				</figure>
 			</article>
 
 		</section>
-		<footer>
-			<h3>CONTACTO</h3>
-			<p>Contactame, la imaginacion es el limite</p>
-			<form>
-				<input type="text" placeholder="Nombre">
-				<input type="email" placeholder="Email">
-				<textarea placeholder="Motivo"></textarea>
-				<button type="submite">Contactarme</button>
+		<footer id="contacto" class="Footer">
+			<h3 class="Footer-title">CONTACTO</h3>
+			<p class="Footer-description">Contactame, la imaginacion es el limite</p>
+			<form class="Footer-form">
+				<input class="Footer-formInput" type="text" placeholder="Nombre">
+				<input class="Footer-formInput" type="email" placeholder="Email">
+				<textarea class="Footer-textarea" placeholder="Motivo"></textarea>
+				<button class="Footer-button" type="submite">Contactarme</button>
 			</form>
 		</footer>
 		
