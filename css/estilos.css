@@ -1,4 +1,79 @@
 
-body{
-	background: red;
+.MainMenu{
+	background: #1E1E1E;
+	height: 3.75em; /*Alto del menu, podemo cambiarlo por padding*/
+	position: fixed;
+	left: 0; /*en lugar de left y right, se puede hacer con width: 100%;*/
+	right: 0;
+	text-align: center;
+	top: 0;
+
+
 }
+
+.MainMenu-list{
+	margin : 0;
+	padding: 0;
+
+}
+
+.MainMenu-item{
+	display: inline-block;
+	/*margin: 0;*/
+}
+
+.MainMenu-link{
+	color: #00DBFF;
+	/*se puede quitar height y line-height y poner solo padding */
+	line-height: 3.75; /*Centra el contenido del menu, esto solo funciona cunado es una sola linea.*/
+	margin-right: 1.5em;
+	text-decoration: none;
+
+}
+
+.Header{
+	background-image: url('../img/fondo-header.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top: 3.75em;
+	text-align: center;
+	padding: 1.2em 0;
+}
+
+/*.Header-imageContainer{
+	width: 100px;
+}*/
+
+.Header-image{
+	border: 5px solid white;
+	border-radius: 50%;
+	width: 100px;
+}
+
+.Header-link, .Header-name{
+	color: white;
+}
+
+.Header-link{
+	font-size: 2.2em;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.Header-name{
+	font-weight: 300;
+	margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
