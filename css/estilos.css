@@ -1,3 +1,10 @@
+.u-title{
+	color: #00CCFF;
+	border-bottom: 2px dashed #00CCFF;
+	font-size: 1.5em;
+	font-weight: normal;
+	text-align: center;
+}
 
 .MainMenu{
 	background: #1E1E1E;
@@ -65,6 +72,8 @@
 	font-weight: 300;
 	margin: 0;
 }
+
+/*Profile*/
 
 
 
