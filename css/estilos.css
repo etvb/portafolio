@@ -3,7 +3,8 @@
 	border-bottom: 2px dashed #00CCFF;
 	font-size: 1.5em;
 	font-weight: normal;
-	text-align: center;
+	/*text-align: center;*/
+	padding-bottom: .5em;
 }
 
 .MainMenu{
@@ -76,13 +77,98 @@
 /*Profile*/
 
 
+.Profile{
+	text-align: center;
+}
 
+.Profile-link{
+	background: orange;
+	color: white;
+	text-decoration: none;
+	padding: .5em 1em;
+	border-radius: 2em;
+	margin: .5em;
 
+}
 
+.Work{
+	margin-top: 2em;
+	text-align: center;
+}
 
+.Work-item{
+	display: inline-block;
+	margin-right: 1.8em;
+	margin-bottom: 1.8em;
+	vertical-align: top;
+}
 
+.Work-imageContainer{
+	margin: 0;
+	width: 15em;
+}
 
+.Work-image{
+	width: 100%;
+}
 
+.Work-description{
+	font-style: italic;
+	font-size: 1em;
+	color: #515151;
+}
 
+.Footer{
+	background-image: url(../img/footer.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding: 2em 0;
+	text-align: center;
+}
+
+.Footer-form{
+	/*border: 1px black solid;*/
+	text-align: center;
+	display: inline-block;
+}
+
+.Footer-left{
+	/*border: 1px solid red;*/
+	display: inline-block;
+	text-align: center;
+	vertical-align: top;
+	width: 40%;
+}
+
+.Footer-title{
+	color: white;
+}
+
+.Footer-description{
+	display: block;
+}
+
+.Footer-formInput, .Footer-textarea{
+	background: white;
+	display:block;
+	border: none;
+	margin-bottom: 1em;
+	border-radius: 2em;
+	padding: .5em;
+
+}
+
+.Footer-textarea{
+	resize: none;
+}
+
+.Footer-button{
+	background:orange;
+	color:white;
+	border-radius: 1em;
+	border: none;
+	padding: .50em;
+}
 
 
