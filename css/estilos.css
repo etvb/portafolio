@@ -15,8 +15,6 @@
 	right: 0;
 	text-align: center;
 	top: 0;
-
-
 }
 
 .MainMenu-list{
@@ -36,7 +34,6 @@
 	line-height: 3.75; /*Centra el contenido del menu, esto solo funciona cunado es una sola linea.*/
 	margin-right: 1.5em;
 	text-decoration: none;
-
 }
 
 .Header{
@@ -78,6 +75,7 @@
 
 
 .Profile{
+	padding: 4em;
 	text-align: center;
 }
 
@@ -92,8 +90,9 @@
 }
 
 .Work{
-	margin-top: 2em;
+	/*margin-top: 2em;*/
 	text-align: center;
+	padding: 4em;
 }
 
 .Work-item{
@@ -101,11 +100,12 @@
 	margin-right: 1.8em;
 	margin-bottom: 1.8em;
 	vertical-align: top;
+	width: 30%;
 }
 
 .Work-imageContainer{
 	margin: 0;
-	width: 15em;
+	/*width: 12em;*/
 }
 
 .Work-image{
