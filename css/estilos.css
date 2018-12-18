@@ -173,3 +173,14 @@
 	padding: .50em;
 }
 
+@media(max-width: 600px){
+
+	.Work-item{
+		/*margin-left: 0;*/
+		margin-right: 0;
+
+		/*padding-left: 0;*/
+		/*padding-right: 0;*/
+		width: 200px;
+	}
+}
