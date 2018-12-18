@@ -28,6 +28,7 @@
 	/*margin: 0;*/
 }
 
+
 .MainMenu-link{
 	color: #00DBFF;
 	/*se puede quitar height y line-height y poner solo padding */
@@ -36,6 +37,9 @@
 	text-decoration: none;
 }
 
+.MainMenu-link:hover{
+	color: white;
+}
 .Header{
 	background-image: url('../img/fondo-header.jpg');
 	background-position: center;
