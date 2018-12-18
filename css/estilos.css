@@ -43,7 +43,7 @@
 	background-size: cover;
 	margin-top: 3.75em;
 	text-align: center;
-	padding: 1.2em 0;
+	padding: 4em 0 2em;
 }
 
 /*.Header-imageContainer{
@@ -96,11 +96,12 @@
 }
 
 .Work-item{
+	/*border: 1px solid red;*/
 	display: inline-block;
 	margin-right: 1.8em;
 	margin-bottom: 1.8em;
 	vertical-align: top;
-	width: 30%;
+	width: 300px;
 }
 
 .Work-imageContainer{
@@ -170,5 +171,4 @@
 	border: none;
 	padding: .50em;
 }
-
 
