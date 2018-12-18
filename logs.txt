@@ -1,0 +1,53 @@
+commit 64d68f567208d5b953842aa0c113c47a7051007a
+Author: Edgardo Torres <Edgardo.torres@ad.mediaccess.corp>
+Date:   Fri Dec 14 12:54:01 2018 -0600
+
+    las imagenes a 200 y que ocupen el 30%
+
+commit ad4cefc878adc0d034d24b35fc02ae0cb7cbfbc1
+Author: Edgardo Torres <Edgardo.torres@ad.mediaccess.corp>
+Date:   Thu Dec 13 21:59:04 2018 -0600
+
+    Coloco las imagenes y algunos cambios mas
+
+commit 066b56fb14cb3406f8277c3cde861a11a3eddb65
+Author: Edgardo Torres Vanden Bouch <edgardo.torres@hotmail.com>
+Date:   Thu Dec 13 07:05:35 2018 -0600
+
+    Termine el la maquiatacion faltarian las media queris
+
+commit 36c2c97f78a0fd1ff71d2a0cf12743df0bae8e5f
+Author: Edgardo Torres Vanden Bouch <edgardo.torres@hotmail.com>
+Date:   Wed Dec 12 22:50:49 2018 -0600
+
+    creo la utilidad par alos titulos de perfil y trabajo
+
+commit aa86b0ef7e039d0dd611c3ab5d31a04bd3d9f312
+Author: Edgardo Torres Vanden Bouch <edgardo.torres@hotmail.com>
+Date:   Thu Dec 6 12:03:37 2018 -0600
+
+    temine el nav y el header
+
+commit ace264f1285eb5b65edb729a3c35d4391ab303eb
+Author: Edgardo Torres Vanden Bouch <edgardo.torres@hotmail.com>
+Date:   Tue Dec 4 10:26:48 2018 -0600
+
+    agrego normalize
+
+commit 8d970f27bdb538db10343a795f812445e6171124
+Author: Edgardo Torres Vanden Bouch <edgardo.torres@hotmail.com>
+Date:   Tue Dec 4 10:25:34 2018 -0600
+
+    se trabaja con suit css y terminamos de poner las clases en el html
+
+commit 6deffc5fd4fdf25bc1feea1c61a8fcb4e459a1e9
+Author: Edgardo Torres Vanden Bouch <edgardo.torres@hotmail.com>
+Date:   Tue Dec 4 07:10:24 2018 -0600
+
+    creo la estructura en html
+
+commit 9a100b44745c6902555daa0c303171416115701d
+Author: Edgardo Torres <Edgardo.torres@ad.mediaccess.corp>
+Date:   Mon Dec 3 21:24:35 2018 -0600
+
+    archivos base par ael proyecto
