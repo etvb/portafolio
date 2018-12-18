@@ -80,14 +80,18 @@
 }
 
 .Profile-link{
+	box-shadow: 1px 1px 8px black;
 	background: orange;
 	color: white;
 	display: inline-block;
 	text-decoration: none;
 	padding: .5em 1em;
 	border-radius: 2em;
-	margin: .5em;
+	margin: 1em;
+}
 
+.Profile-link:hover{
+	font-size: 1.1em;
 }
 
 .Work{
