@@ -82,6 +82,7 @@
 .Profile-link{
 	background: orange;
 	color: white;
+	display: inline-block;
 	text-decoration: none;
 	padding: .5em 1em;
 	border-radius: 2em;
