@@ -146,9 +146,14 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
-	display: none;
+	/*display: none;*/
 	padding: 2em 0;
 	text-align: center;
+}
+
+.Footer-con{
+	width: 80%;
+	margin: 0 auto;
 }
 
 .Footer-form{
