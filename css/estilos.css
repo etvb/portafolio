@@ -142,6 +142,7 @@
 }
 
 .Footer{
+	background: linear-gradient(#05D9FC99, #000000b3);
 	/*background-image: url(../img/footer.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
