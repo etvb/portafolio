@@ -142,10 +142,10 @@
 }
 
 .Footer{
-	background-image: url(../img/footer.jpg);
+	/*background-image: url(../img/footer.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: center;
+	background-position: center;*/
 	/*display: none;*/
 	padding: 2em 0;
 	text-align: center;
