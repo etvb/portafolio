@@ -51,13 +51,13 @@
 }
 
 /*.Header-imageContainer{
-	width: 100px;
+	margin: px;
 }*/
 
 .Header-image{
 	border: 5px solid white;
 	border-radius: 50%;
-	width: 100px;
+	width: 150px;
 }
 
 .Header-link, .Header-name{
@@ -68,11 +68,13 @@
 	font-size: 2.2em;
 	font-weight: bold;
 	text-decoration: none;
+	display: block;
+	margin: 10px 0 10px 0;
 }
 
 .Header-name{
 	font-weight: 300;
-	margin: 0;
+	
 }
 
 /*Profile*/
