@@ -9,12 +9,22 @@
 
 .MainMenu{
 	background: #1E1E1E;
-	height: 3.75em; /*Alto del menu, podemo cambiarlo por padding*/
+	padding: .5em; /*Alto del menu, podemo cambiarlo por padding*/
 	position: fixed;
-	left: 0; /*en lugar de left y right, se puede hacer con width: 100%;*/
-	right: 0;
+	/*left: 0; en lugar de left y right, se puede hacer con width: 100%;*/
+	/*right: 0;*/
+	width: 100%;
 	text-align: center;
 	top: 0;
+}
+
+.MainMenu-toggle{
+	box-sizing: border-box;
+	color: #00CCFF;
+	display: none;
+	font-size: 30px;
+	padding: 10px 20px;
+	text-align: right;
 }
 
 .MainMenu-list{
@@ -208,9 +218,26 @@
 	.Work-item{
 		/*margin-left: 0;*/
 		margin-right: 0;
-
 		/*padding-left: 0;*/
 		/*padding-right: 0;*/
 		width: 200px;
+	}
+
+	.MainMenu-toggle{
+		display: block;
+	}
+
+	.MainMenu-list{
+		width: 100%;
+		display: none;
+	}
+	.MainMenu-item{
+		display: block;
+	}
+	.active{
+		display:block;
+	}
+	.unactive{
+		display: none;
 	}
 }
